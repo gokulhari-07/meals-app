@@ -116,7 +116,7 @@ import 'package:mealss/models/meal.dart';
 /// ---------------------------------------------------------------
 /// 🧱 STATE NOTIFIER (HOLDS THE LOGIC)
 class FavouriteMealsNotifier extends StateNotifier<List<Meal>> {
-  FavouriteMealsNotifier() : super([]); // initial favourites = empty list
+  FavouriteMealsNotifier() : super([]); // initial favourites = empty list as u can see empty square brckets inside super which represents empty list.
 
   /// Toggles a meal as favourite.
   /// Returns:
